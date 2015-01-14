@@ -1,0 +1,8 @@
+<h2>Edit Gif</h2>
+
+
+<form action="/update_user/<%= @User.id %>">
+  <input type="text" name="caption" placeholder="caption" value="<%= @User.caption %>">
+  <input type="text" name="url" placeholder="url" value="<%= @User.url %>">
+  <input type="submit">
+</form>

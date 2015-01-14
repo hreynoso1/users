@@ -1,0 +1,12 @@
+html {background: black;}
+
+div.container, div.container::before, div.container::after {background: black;
+     color: white;}
+
+
+h2 {
+color: white; 
+} 
+h3 {
+color: white; 
+}
